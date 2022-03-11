@@ -1,0 +1,13 @@
+template:
+  - sensor:
+    - name: binday
+      state: >
+        {% if (now().isocalendar()[1] % 2 == 0) and now().isoweekday() == 3 %}
+          Grass
+        {% elif (now().isocalendar()[1] % 2 == 1) and now().isoweekday() == 3 %}
+          Recycle
+        {% endif %}
+      icon: mdi:delete
+    - name: current_day
+      state: >
+        {{ ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'][now().weekday()] }}
