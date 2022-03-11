@@ -1,0 +1,136 @@
+---
+#
+# Midnight Theme
+#
+midnight red:
+
+  # Text
+  text-color: '#ffffff' 
+  primary-text-color: 'var(--text-color)'
+  text-primary-color: 'var(--text-color)'
+  secondary-text-color: "#5294E2"
+  text-medium-light-color: '#A0A2A8'
+  text-medium-color: '#80828A'
+  disabled-text-color: '#7F848E'
+  primary-color: 'var(--accent-color)'
+
+  # Text Fields an Dropdown
+  mdc-text-field-fill-color: 'rgba(255, 255, 255, 0.05)' #'var(--background-color)'
+  mdc-text-field-ink-color: 'var(--text-color)'
+  mdc-select-fill-color: 'rgba(255, 255, 255, 0.05)' #'var(--background-color)'
+  mdc-text-field-label-ink-color: 'var(--secondary-text-color)'
+  input-fill-color: 'var(--background-color)'
+  input-ink-color: 'var(--text-color)'
+  input-label-ink-color: 'var(--text-color)'
+  input-disabled-fill-color: 'var(--background-color)'
+  input-disabled-ink-color: 'var(--disabled-text-color)'
+  input-disabled-label-ink-color: 'var(--disabled-text-color)'
+  input-idle-line-color: 'var(--background-color)'
+  input-dropdown-icon-color: 'var(--disabled-text-color)'
+  input-hover-line-color: 'var(--primary-color)'
+  code-editor-background-color: '#222c40'
+  codemirror-property: 'var(--accent-color)'
+
+  # Main Colors
+  app-header-background-color: '#30333b'
+  header-height: 48px
+  accent-color: '#E45E65'
+  accent-medium-color: 'var(--accent-color)'
+
+  # Background
+  background-image: center / cover no-repeat fixed url("/local/wallpaper/2.jpg")
+  background-color: '#383C45'
+  primary-background-color: 'var(--background-color)'
+  background-color-2: '#20293c' 
+  secondary-background-color: 'none' #'#383C45'
+  markdown-code-background-color: 'var(--background-color)'
+  
+  # Card
+  card-background-color: 'var(--ha-card-background)'
+  ha-card-background: '#434954' #'linear-gradient(145deg, #273246, #2e3b53)'
+  # ha-card-box-shadow: "3px 3px 13px -6px rgba(17,35,52,1)"
+  ha-card-border-radius: "10px"
+  # border-color: 'none'
+
+  # Icons
+  paper-item-icon-color: 'var(--primary-text-color)' #'#EBEBEB'
+  paper-item-icon-active-color: '#F9C536' #'var(--accent-color)'
+    
+  # Sidebar
+  sidebar-background-color: 'var(--background-color)'
+  sidebar-icon-color: "rgba(255, 255, 255, 0.70)"
+  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-selected-text-color: 'var(--text-color)'
+  paper-listbox-background-color: 'var(--sidebar-background-color)'
+  divider-color: "rgba(0, 0, 0, .12)"
+  light-primary-color: "var(--accent-color)"
+
+  # Sliders
+  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-pin-color: 'var(--accent-color)' #'var(--background-color-2)'
+  paper-slider-active-color: 'var(--accent-color)'
+  paper-slider-container-color: 'linear-gradient(var(--primary-background-color), var(--secondary-background-color)) no-repeat' #'var(--background-color-2)'
+
+  # Toggle:
+  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
+  mdc-theme-primary: 'var(--accent-color)'
+
+  # Switch
+  switch-unchecked-color: 'var(--disabled-text-color)' #'#70889e'
+  switch-checked-button-color: 'var(--accent-color)'
+  switch-unchecked-track-color: 'var(--disabled-text-color)' #'var(--background-color-2)'
+  switch-checked-track-color: 'var(--disabled-text-color)' #'var(--background-color-2)'
+
+
+  # Radio Button
+  paper-radio-button-checked-color: 'var(--accent-color)'
+
+  # Popups
+  more-info-header-background: 'var(--secondary-background-color)'
+  paper-dialog-background-color: '#434954' #'var(--background-color)'
+
+  # Tables
+  table-row-background-color: '#353840' #'var(--background-color)'
+  table-row-alternative-background-color: '#3E424B' #'var(--ha-card-background)'
+
+  # Badges
+  label-badge-background-color: "#2E333A"
+  label-badge-text-color: "var(--primary-text-color)"
+  label-badge-red: "var(--accent-color)"   
+  label-badge-blue: "#039be5"
+  label-badge-green: "#0DA035"
+  label-badge-yellow: "#f4b400"    
+
+  paper-input-container-focus-color: 'var(--accent-color)'
+  
+  # Custom Header
+  ch-background: 'var(--background-color)'
+  ch-active-tab-color: 'var(--accent-color)'
+  ch-notification-dot-color: 'var(--accent-color)'
+  ch-all-tabs-color: 'var(--sidebar-icon-color)'
+  ch-tab-indicator-color: 'var(--accent-color)'
+
+  # Mini Mediaplayer
+  mini-media-player-base-color: 'var(--text-color)'
+  mini-media-player-accent-color: 'var(--accent-color)'
+
+  # Alarm
+  alarm-color-armed: 'rgba(247,53,67,1)'
+
+  #Animated icons
+  weather-icon-clear-night: url("/hacsfiles/themes/waves/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/waves/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/waves/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/waves/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/waves/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/waves/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/waves/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/waves/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/waves/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/waves/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/waves/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/waves/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/waves/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/waves/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/waves/exceptional.svg")
+  
